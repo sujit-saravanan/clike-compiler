@@ -1,0 +1,29 @@
+bool flag;
+flag=True && False || ((False && True) || False) || (True && 1 < 2) || (1 + 12) > 2;
+int in;
+in = 12 + (15 * 5);
+
+string a;
+a = ("qwefqef\n" + "we");
+
+int multiline_int[4];
+multiline_int = {
+    1, 2,
+    3, 4
+};
+
+float multiline_float[4];
+multiline_float = {
+        1. , 2.2435,
+    51233.2,  .4
+};
+
+string single_array[1];
+single_array = {"Test" + " qefqwef "};
+
+read(a);
+read(a);
+
+read(a);
+read(a);
+read(a);

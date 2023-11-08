@@ -1,0 +1,54 @@
+// String Array
+string string_array[4];
+string_array = {"1234", "2345", "-3456", "456789ABCD"};
+
+// Int Array
+int int_array[4];
+int_array = {1234, 2345, -3456, (456789 + 134 / 2)};
+
+// Float Array
+float float_array[4];
+float_array = {1234., 2345., -.3456, .456789};
+
+// Bool Array
+bool bool_array[5];
+bool_array = {!True, False, !(1 < 2), !((5) >= (2)), (( 5 > 2 ) && ( 2 > (1 + 5) ))};
+bool_array = {(( 5 > 2 ) && ( 2 > (1 + 5) )), True, False, 1 < 2, (5) >= (2)};
+
+bool bool_array2[2];
+bool_array2 = {(( 5 > 2 ) && ( 2 > (1 + 5) )), (( 5 + 2 ) > ( 2 > (1 + 5) ))};
+
+// Char Array
+char char_array[5];
+char_array = {'a', '\n', ' ', '\'', '\\'};
+
+// MultiLine Array
+float multiline_array[9];
+multiline_array = {
+    1.0, 2.0, 3.0,
+    4.0, 5.0, 6.0,
+    7.0, 8.0, 9.0
+};
+
+// Identifier Array
+float a;
+a = 1.0;
+float identifier_array[3];
+identifier_array = {a, a, 1.0};
+
+// Multi array
+int test[4][2][0];
+test = {
+    {
+         {}, {1, 2, 3, 4}
+    },
+    {
+         {1, 2, 3, 4}, {}
+    },
+    {
+         {}, {}
+    },
+    {
+
+    }
+};

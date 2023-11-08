@@ -1,0 +1,8 @@
+bool flag;
+flag=True && False || False && True || False ;
+int in;
+
+string a;
+a = "qwefqef\n";
+
+read(a);
